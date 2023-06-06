@@ -1,0 +1,173 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styles for the header */
+header {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #333;
+  animation: fadeIn 1s ease-in-out;
+}
+
+header p {
+  font-size: 20px;
+  color: #777;
+  animation: fadeIn 1s ease-in-out 0.5s;
+}
+
+/* Styles for the main content */
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Styles for the call-to-action section */
+.cta-section {
+  background-color: #301e67;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 40px;
+  animation: slideUp 1s ease-in-out;
+}
+.cust {
+  margin: 15px;
+}
+.cta-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #b6eada;
+  animation: fadeIn 1s ease-in-out 1s;
+}
+
+.cta-section p {
+  font-size: 20px;
+  color: #b6eada;
+  margin-bottom: 30px;
+  animation: fadeIn 1s ease-in-out 1.5s;
+}
+
+.cta-section .cta-button {
+  display: inline-block;
+  background-color: #5b8fb9;
+  color: #b6eada;
+  padding: 12px 24px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  animation: fadeIn 1s ease-in-out 2s;
+}
+
+.cta-button:hover {
+  transition: 0.3s;
+  background-color: black;
+}
+
+/* Styles for the features section */
+.features-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.feature {
+  flex-basis: 30%;
+  background-color: #19376d;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  margin: 20px;
+  animation: slideUp 1s ease-in-out;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+  animation: fadeIn 1s ease-in-out 1s;
+}
+
+.feature p {
+  font-size: 18px;
+  color: #fff;
+  animation: fadeIn 1s ease-in-out 1.5s;
+}
+
+/* Styles for the image gallery section */
+.gallery-section {
+  margin-bottom: 40px;
+  animation: slideUp 1s ease-in-out;
+}
+
+.gallery-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+  animation: fadeIn 1s ease-in-out 1s;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.gallery-item {
+  flex-basis: 33%;
+  padding: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Styles for the footer */
+footer {
+  margin-top: 40px;
+  animation: slideUp 1s ease-in-out;
+}
+
+footer p {
+  color: #777;
+}
